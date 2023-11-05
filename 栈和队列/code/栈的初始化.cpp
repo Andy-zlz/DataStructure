@@ -20,9 +20,31 @@ void InitStack(SqStack &sqStack)
     sqStack.stacksize = MAXSIZE;
 }
 
+void Push(SqStack &sqStack, SElemType e)
+{
+    if(sqStack.top - sqStack.base == sqStack.stacksize)
+    {
+        cout << "栈满" <<endl;
+    }
+    // 入栈
+    *sqStack.top++ = e;
+}
+
+void Pop(SqStack &sqStack, SElemType &e)
+{
+    if(sqStack.top == sqStack.base)
+    {
+        cout << " 栈空" << endl;
+    }
+    e = *--sqStack.top;
+}
+
 int main()
 {
     SqStack sqStack;
     InitStack(sqStack);
-    cout << "ok" << endl;
+    Push(sqStack, 10);
+    int e;
+    Pop(sqStack, e);
+    cout << e << endl;
 }
