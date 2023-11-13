@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/3栈和队列/code
+# Install script for directory: /Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/4串、数组和广义表/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/3栈和队列/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/4串、数组和广义表/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

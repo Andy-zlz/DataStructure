@@ -1,0 +1,4 @@
+/Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/4串、数组和广义表/code/cmake-build-debug/CMakeFiles/BF.dir
+/Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/4串、数组和广义表/code/cmake-build-debug/CMakeFiles/KMP.dir
+/Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/4串、数组和广义表/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangli/Desktop/计算机课件/数据结构-青岛大学王卓/4串、数组和广义表/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
